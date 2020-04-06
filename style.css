@@ -2,6 +2,7 @@
     text-decoration: none;
     margin:0;
     padding:0;
+    list-style-type: none;
 }
 
 html,body{
@@ -9,23 +10,40 @@ html,body{
     height: 100%;
 }
 
-section{
-    display: flex;
-    justify-content: center;
-}
-
-table > thead > tr >th{
-    border: 1px solid black;
-    border-collapse: collapse;
-
-}
-table{
-    width:70%;
-}
-
 .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+  }
+
+  .inner {
+      margin-left: 30px;
+  }
+
+  [class*="col-"]{
+    display: inline-block;
+  }
+
+  .row{
+    width:98%;
+  }
+
+  .col-1{
+    width: 16%;
+  }
+  .col-2{
+    width: 32%;
+  }
+  .col-3{
+    width: 48%;
+  }
+  .col-4{
+    width: 64%;
+  }
+  .col-5{
+    width: 80%;
+  }
+  .col-6{
+    width: 96%;
   }

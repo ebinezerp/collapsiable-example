@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,100 @@
     <link rel="stylesheet" href="style.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
+
 <body>
     <section>
-        <table>
-            <thead>
-                <tr>
-                    <th>Account Type</th>
-                    <th>Amount</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>
-                        <i class="icon-expand-alt collapsible"></i> Savings
-                        <ul class='content'>
-                            <li>HDFC</li>
-                            <li>ICICI</li>
-                        </ul>
-                    </th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                </tr>
-            </tbody>
-        </table>
+        <div class='row'>
+            <div class='col-2'>
+                <h1>FINANCIAL ROW</h1>
+            </div>
+            <div class='col-2'>
+                <h1>Amount</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col-4'>
+                <h3 class='collapsible'> <i class="icon-expand-alt"></i>Ordinary Income Expense</h3>
+                <div class='content'>
+                    <div class='row'>
+                        <div class='col-6'>
+                            <h3 class='collapsible'> <i class="icon-expand-alt"></i>Income</h3>
+                            <div class='row content'>
+                                <div class='col-6'>
+                                    <h3 class='collapsible'><i class="icon-expand-alt"></i>4000-sales</h3>
+                                    <div class='row content'>
+                                        <div class='row'>
+                                            <div class='col-4'>
+                                                <p>4000 - Sales</p>
+                                            </div>
+                                            <div class='col-2'>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                        <div class='row'>
+                                            <div class='col-4'>
+                                                <p>4000 - Sales - Marchandise</p>
+                                            </div>
+                                            <div class='col-2'>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                        <div class='row'>
+                                            <div class='col-4'>
+                                                <p>4002 - Sales - Services</p>
+                                            </div>
+                                            <div class='col-2'>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                        <div class='row'>
+                                            <div class='col-4'>
+                                                <p>4004 - Sales - Warrenty</p>
+                                            </div>
+                                            <div class='col-2'>
+                                                <input type="text" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-6'>
+                            <h3 class='collapsible'><i class="icon-expand-alt"></i> Cost of Sales</h3>
+                            <div class='row content'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <h3 class='collapsible'><i class="icon-expand-alt"></i>5000 - Purchases</h3>
+                                        <div class='row content'>
+                                            <div class='row'>
+                                                <div class='col-4'>
+                                                    <p>5002 - Marchandise</p>
+                                                </div>
+                                                <div class='col-2'>
+                                                    <input type='text' />
+                                                </div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col-4'>
+                                                    <p>5004 - Service</p>
+                                                </div>
+                                                <div class='col-2'>
+                                                    <input type='text' />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
     </section>
 
     <script src="script.js"></script>
 </body>
+
 </html>
